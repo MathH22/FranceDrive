@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="theme-color" content="#101820">
+
+    <title>FranceDrive</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>FranceDrive</h1>
+
+        <span>Version 0.7</span>
+
+    </header>
+
+    <main>
+
+        <div id="game-container">
+
+            <canvas id="game"></canvas>
+
+            <div id="loading">
+
+                <h2>FranceDrive</h2>
+
+                <p>Préparation du monde...</p>
+
+            </div>
+
+            <div id="speed">0 km/h</div>
+
+        </div>
+
+        <div id="controls">
+
+            <button data-control="left">◀</button>
+
+            <button data-control="accelerate">▲</button>
+
+            <button data-control="brake">▼</button>
+
+            <button data-control="right">▶</button>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        FranceDrive · Exploration de la France
+
+    </footer>
+
+    <script src="js/game.js"></script>
+
+</body>
+
+</html>
